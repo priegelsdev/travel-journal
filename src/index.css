@@ -5,6 +5,17 @@
 
 body {
   margin: 0;
+  position: fixed;
+}
+
+/** TYPOGRAPHY **/
+
+h1 {
+  margin-top: 0;
+}
+
+h5 {
+  margin: 0;
 }
 
 /** HEADER **/
@@ -15,6 +26,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 0.5em;
+  width: 100vw;
 }
 
 .page-title {
@@ -35,20 +47,27 @@ header {
 
 .card {
   display: flex;
+  align-items: center;
   padding: 2em;
 }
 
 .card-img {
-  width: 100%;
-  height: auto;
-  max-width: 150px;
+  width: 125px;
+  height: 168px;
+  max-width: 100%;
   object-fit: cover;
   border-radius: 5px;
+  margin-right: 19px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
 }
 
 .card-location {
   font-size: 10px;
-  margin: 0 auto;
+  margin-bottom: 4px;
 }
 
 .location-marker {
@@ -64,4 +83,12 @@ header {
 
 .card-google {
   color: #918E9B;
+}
+
+.card-duration {
+  margin-bottom: 9px;
+}
+
+.card-description {
+  margin: 0;
 }
