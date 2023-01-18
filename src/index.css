@@ -24,3 +24,9 @@ header {
   line-height: 18px;
   letter-spacing: -0.075em;
 }
+
+/** CARD **/
+
+.card-img {
+  width: 100px;
+}
