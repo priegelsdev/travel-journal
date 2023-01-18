@@ -27,6 +27,41 @@ header {
 
 /** CARD **/
 
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 36px; /** MAYBE REPLACE **/
+}
+
+.card {
+  display: flex;
+  padding: 2em;
+}
+
 .card-img {
-  width: 100px;
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-location {
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+.location-marker {
+  margin-right: 0.25em;
+}
+
+.card-location-title {
+  color: #2B283A;
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.card-google {
+  color: #918E9B;
 }

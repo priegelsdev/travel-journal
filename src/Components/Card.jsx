@@ -5,6 +5,7 @@ import location from '../assets/location.png'
 export default function Card(props) {
 
   return (
+    <>
     <div className="card">
       <img className="card-img" src={props.imageUrl} alt="picture of " />
       <div className="card-info">
@@ -19,5 +20,6 @@ export default function Card(props) {
         <p className="card-description">{props.description}</p>
       </div>
     </div>
+    </>
   )
 }

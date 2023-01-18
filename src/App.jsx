@@ -17,7 +17,9 @@ function App() {
   return(
     <>
       <Header />
-      {travelData}
+      <div className="cards-container">
+        {travelData}
+      </div>
     </>
   )
 }
